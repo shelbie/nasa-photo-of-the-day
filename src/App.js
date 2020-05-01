@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
-import ReactDOM from "react-dom";
 import axios from "axios";
-import Card from "./components/Card";
+import CardComponent from "./components/CardComponent";
 import Header from "./components/Header"
 
 import "./App.css";
@@ -28,7 +27,7 @@ useEffect(() => {
  
     <div>
    <Header />
-   <Card />
+   <CardComponent />
   </div>
 
   )

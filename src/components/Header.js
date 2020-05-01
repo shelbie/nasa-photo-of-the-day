@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios";
-import Card from "./Card"
+import CardComponent from "./CardComponent"
 
 function Header(props) {
     useEffect(() => {
@@ -21,7 +21,7 @@ function Header(props) {
 
     <div class="header-container">
         <div class="header-title">
-        <p>Title: {nasa.title}</p>
+        {/* <p>Title: {nasa.title}</p> */}
         <p>Date: {nasa.date}</p>
         </div>
     
